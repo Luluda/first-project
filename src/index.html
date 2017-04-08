@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../node_modules/vue/dist/vue.min.js"></script>
+<script src="js/index.js"></script>
+
+<script type="text/x-template" id="j-button">
+    <div>{{name}}</div>
+</script>
+<body>
+ <div id="j-root">
+     {{name}}
+     <my v-bind:name="name"></my>
+ </div>
+</body>
+
+</html>
